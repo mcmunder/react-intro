@@ -12,7 +12,7 @@ class: center, middle, inverted
 
 # React intro
 
-## ...for the eaternity team
+.footnote[mcmunder, January 10, 2016]
 
 ---
 
@@ -118,13 +118,28 @@ class: center, middle, inverted
 
 .center[.react-logo[![react_logo](images/react_logo.svg)]]
 
+---
 
+class: center, inverted
+
+# 01-minimal-react-app
+
+---
+
+class: center, inverted
+
+# 02-jsx-and-babel
+
+![:iframe http://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Clatest%2Creact%2Cstage-0&experimental=false&loose=false&spec=false&code=%5B1%2C2%2C3%5D.map(n%20%3D%3E%20n%20%2B%201)%3B&playground=true]
 
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
     <script>
+      remark.macros.iframe = url => {
+        return `<iframe src="${url}" width="700" height="450"/>`
+      }
       var slideshow = remark.create();
     </script>
   </body>

@@ -29,6 +29,11 @@ a {
   width: 700px;
 }
 
+.iframes {
+  height: 450px;
+  width: 450px;
+}
+
 .footnote {
   position: absolute;
   bottom: 10px;
