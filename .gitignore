@@ -1,1 +1,13 @@
+*.iml
+*.iws
+*.eml
+.DS_Store
+.svn
+log/*.log
+tmp/**
 node_modules
+
+presentation/node_modules/
+presentation/.sass-cache
+presentation/css/reveal.min.css
+presentation/js/reveal.min.js
