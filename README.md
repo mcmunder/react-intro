@@ -4,7 +4,7 @@ This repo contains material for a __basic, high-level intro to React__ and its a
 
 Topics covered:
 
-- 00-intro
+- intro
 - 01-minimal-react-app
 - 02-jsx-and-babel
 - 03-webpack
@@ -12,9 +12,10 @@ Topics covered:
 - 05-components-and-props
 - 06-state-and-lifecycle
 - 07-handling-events
-- 08-redux
-- 09-react-redux
-- 10-now
+- 08-test-with-jest
+- 09-redux
+- 10-react-redux
+- 11-now
 
 # Usage
 
