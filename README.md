@@ -9,9 +9,12 @@ Topics covered:
 - 02-jsx-and-babel
 - 03-webpack
 - 04-create-react-app
-- 05-components-and-state
-
-
+- 05-components-and-props
+- 06-state-and-lifecycle
+- 07-handling-events
+- 08-redux
+- 09-react-redux
+- 10-now
 
 # Usage
 
