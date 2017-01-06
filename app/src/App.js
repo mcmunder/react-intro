@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PropTypes } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
@@ -28,20 +28,22 @@ const Comment = props => {
   )
 }
 
-class App extends Component {
-  render () {
-    return (
-      <div className='App'>
-        <div className='App-header'>
-          <img src={logo} className='App-logo' alt='logo' />
-        </div>
-        <Comment
-          date={comment.date}
-          text={comment.text}
-          author={comment.author} />
+const App = () => {
+  return (
+    <div className='App'>
+      <div className='App-header'>
+        <img src={logo} className='App-logo' alt='logo' />
       </div>
-    )
-  }
+      <Comment
+        text={comment.text}
+        author={comment.author} />
+    </div>
+  )
+}
+
+Comment.propTypes = {
+  author: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 }
 
 export default App
