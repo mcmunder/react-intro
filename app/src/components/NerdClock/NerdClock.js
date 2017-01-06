@@ -10,13 +10,19 @@ class NerdClock extends Component {
   }
 
   componentDidMount () {
+    console.log('componentDidMount')
     this.timer = setInterval(
       () => this.tick(),
       1000
     )
   }
 
+  componentWillUpdate () {
+    console.log('componentWillUpdate')
+  }
+
   componentWillUnmount () {
+    console.log('componentWillUnmount')
     clearInterval(this.timer)
   }
 
@@ -27,6 +33,7 @@ class NerdClock extends Component {
   }
 
   render () {
+    console.log('render')
     return (
       <div>
         <div className='clock-container'>
