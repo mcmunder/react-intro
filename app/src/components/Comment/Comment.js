@@ -2,8 +2,8 @@ import React, { Component, PropTypes } from 'react'
 import './Comment.css'
 
 class Comment extends Component {
-  constructor () {
-    super()
+  constructor (props) {
+    super(props)
     this.state = {
       showAvatar: true
     }
