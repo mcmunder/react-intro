@@ -31,7 +31,6 @@ class Comment extends Component {
           <h4>{this.props.text}</h4>
         </div>
         <button
-          className='toogle-button'
           onClick={() => this.handleClick()}>
           Toggle Avatar
         </button>
