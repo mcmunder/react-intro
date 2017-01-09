@@ -1,6 +1,6 @@
-# React intro for the eaternity team
+# React intro for e(a)ternity
 
-This repo contains material for a __basic, high-level intro to React__ and its associated tools.
+This repo contains material for a __basic intro to React__ and its associated tools.
 
 Agenda:
 
@@ -28,8 +28,9 @@ git clone https://github.com/mcmunder/react-intro.git
 cd presentation
 npm install
 npm start
+cd ..
 ```
 
 ## Checkout what you need
 
-For each of the points in the agenda you can checkout a corresponding branch that contains the code discussed. For example: `git checkout 04-create-react-app`
+For each of the points in the agenda you can checkout a corresponding branch that contains the code discussed. For example: `git checkout 04-create-react-app`.
