@@ -32,4 +32,4 @@ npm start
 
 ## Checkout what you need
 
-For each of the bullets in the agenda you can checkout a corresponding branch that contains the code discussed. For example: `git checkout 04-create-react-app`
+For each of the points in the agenda you can checkout a corresponding branch that contains the code discussed. For example: `git checkout 04-create-react-app`
