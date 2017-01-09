@@ -1,0 +1,1 @@
+export const SET_EVENT_TYPE = 'SET_EVENT_TYPE'
