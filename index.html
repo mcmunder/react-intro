@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>minimal redux</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1 id="root"></h1>
+    <script type="text/javascript">
+      //set up redux store
+      const reducer = (state=0, action) => {
+        switch(action.type) {
+          case "INCREMENT":
+            return state + 1
+          case "DECREMENT":
+            return state - 1
+          default:
+            return state
+        }
+      }
+
+      const store = Redux.createStore(reducer)
+
+      const root = document.getElementById('root')
+
+      const render = () => {
+        root.innerText = store.getState()
+      }
+
+      document.addEventListener('click', () => {
+        store.dispatch({type: 'INCREMENT'})
+      })
+
+      store.subscribe(render)
+      render()
+
+    </script>
+  </body>
+</html>
